@@ -32,7 +32,7 @@ int main() {
     for (int i = 1; i <= m; i++) {
         int a, b, c, d;
         cin>>a>>b>>c>>d;
-        solve(a,b,c,d,i);
+        solve(a,b,c,d,i-1);
     }
     return 0;
 }
