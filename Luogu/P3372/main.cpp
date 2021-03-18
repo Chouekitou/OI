@@ -60,7 +60,7 @@ void update(int l, int r, int c, int s, int t, int p) {
 }
 
 int main() {
-    // freopen("main.in", "r", stdin);
+    freopen("main.in", "r", stdin);
     cin >> n >> m;
     for (int i = 1; i <= n; i++) {
         cin >> a[i];
