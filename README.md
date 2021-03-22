@@ -2,7 +2,7 @@
 
 ## Max poi☆poi poi poi！
 
-![image](https://github.com/hawk5121/OI/raw/master/image/but.jpg)
+![image](https://github.com/hawk5121/OI/raw/master/image/poi.jpg)
 
 [M]poi?
 
@@ -68,7 +68,7 @@
 
 [M]poi poi poi poi poi poi
 
-![image](https://github.com/hawk5121/OI/raw/master/image/poi.jpg)
+![image](https://github.com/hawk5121/OI/raw/master/image/but.jpg)
       
 
 ⣿⣷⡄⠙⠿⠏⢸⣷⣶⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣾⣽⢿⣿⣿⣿⣿⣿⣿⣿⣿⣷⡆⠄⠄⢴⣾⣿⣿⣿⣿⣿⣿⣿⣿⣦⣍⠷⣎⠸⢄⠸⣿⣇⢐⠸⡿⠏⡐⢐⢄⠹⣿⣮⡹⢿⣿⣿⣿⣯⡹⣷  
