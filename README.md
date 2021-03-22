@@ -72,3 +72,7 @@
   
 
 ![image](https://github.com/hawk5121/OI/raw/master/image/RUA.png)
+
+### [Original File](https://github.com/hawk5121/OI/blob/master/bitmap/image_source)  
+
+### [Original Image](https://github.com/hawk5121/OI/blob/master/image/reimu.png)
