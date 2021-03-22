@@ -28,25 +28,19 @@
 
 [M]poi [M]poi [M]poi [M]poi [M]poi [M]poi [M]poi [M]poi [M]poi [M]poi [M]poi 
 
-[R to L] poi poi poi poi poi poi poi poi 
+[R to L]poi poi poi poi poi poi poi poi 
 
-[L to R] poi poi poi poi poi poi poi poi 
+[L to R]poi poi poi poi poi poi poi poi 
 
-[R to L] poi poi poi poi poi poi poi poi 
+[R to L]poi poi poi poi poi poi poi poi 
 
-[L to R] poi poi poi poi poi poi poi poi 
-
-[M]poi [M]poi [M]poi [M]poi [M]poi [M]poi [M]poi [M]poi [M]poi [M]poi [M]poi 
-
-[M]poi [M]poi [M]poi [M]poi [M]poi [M]poi [M]poi [M]poi [M]poi [M]poi [M]poi 
-
-[M] po po po po po po po po po po po po po po po po po po po po po po po po po 
+[L to R]poi poi poi poi poi poi poi poi 
 
 [M]poi [M]poi [M]poi [M]poi [M]poi [M]poi [M]poi [M]poi [M]poi [M]poi [M]poi 
 
 [M]poi [M]poi [M]poi [M]poi [M]poi [M]poi [M]poi [M]poi [M]poi [M]poi [M]poi 
 
-[M]poi [M]poi [M]poi [M]poi [M]poi [M]poi [M]poi [M]poi [M]poi [M]poi [M]poi 
+[M]po po po po po po po po po po po po po po po po po po po po po po po po po 
 
 [M]poi [M]poi [M]poi [M]poi [M]poi [M]poi [M]poi [M]poi [M]poi [M]poi [M]poi 
 
@@ -58,10 +52,16 @@
 
 [M]poi [M]poi [M]poi [M]poi [M]poi [M]poi [M]poi [M]poi [M]poi [M]poi [M]poi 
 
-[M] po po po po po po po po po po po po po po po po po po po po po po po po po 
+[M]poi [M]poi [M]poi [M]poi [M]poi [M]poi [M]poi [M]poi [M]poi [M]poi [M]poi 
+
+[M]poi [M]poi [M]poi [M]poi [M]poi [M]poi [M]poi [M]poi [M]poi [M]poi [M]poi 
+
+[M]poi [M]poi [M]poi [M]poi [M]poi [M]poi [M]poi [M]poi [M]poi [M]poi [M]poi 
+
+[M]po po po po po po po po po po po po po po po po po po po po po po po po po 
 
 [M]poi
 
-[M] po po po po po po po po po po po po po po po po po po po po 
+[M]po po po po po po po po po po po po po po po po po po po po 
 
 [M]poi poi poi poi poi poi
