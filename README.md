@@ -1,6 +1,6 @@
 # OIのコードです、多分。
 
-## Max poi☆poi poi poi！
+## [S9ryne - Maxpoi ☆ poi poi poi! (Original Audio)](https://github.com/hawk5121/OI/raw/master/poi.mp3)
 
 ![image](https://github.com/hawk5121/OI/raw/master/image/poi.jpg)
 
