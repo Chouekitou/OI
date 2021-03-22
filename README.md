@@ -2,7 +2,7 @@
 
 ## Max poi☆poi poi poi！
 
-![image]()
+![image]("https://github.com/hawk5121/OI/raw/master/poi.jpg")
 
 [M]poi?
 
