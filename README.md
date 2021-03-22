@@ -71,7 +71,7 @@
 ![image](https://github.com/hawk5121/OI/raw/master/image/but.jpg)
   
 
-![image](https://github.com/hawk5121/OI/raw/master/image/RUA.png)
+![image](https://github.com/hawk5121/OI/raw/master/image/reimu.png)
 
 ### [Original File](https://github.com/hawk5121/OI/blob/master/reimu_pic/image_source)  
 
