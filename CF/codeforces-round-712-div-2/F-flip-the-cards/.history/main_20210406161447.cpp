@@ -7,8 +7,8 @@ using namespace std;
 int main() {
     ios::sync_with_stdio(0);
     int n;
+    vector<int> ve,c,suffmax,seq0,seq1;
     cin>>n;
-    vector<int> ve(n+1),c(n+1),suffmax(n+2),seq0,seq1;
     for(int i=0;i<n;i++){
         int a,b;
         cin>>a>>b;
@@ -48,7 +48,7 @@ int main() {
         }
         if(prefmin>suffmax[i+1]){
             int s0=(int)seq0.size(),s1=(int)seq1.size();
-            ans+=min(cost0+s1-cost1,s0-cost0+cost1);
+            ans+=min(cost0+s1-cost1,s0-coost0+cost1);
             cost0=cost1=0;
             seq0.clear();
             seq1.clear();

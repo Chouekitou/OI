@@ -13,8 +13,6 @@ int cmp(city a,city b){
     return a.a<b.a;
 }
 
-ll d[maxn];
-
 int main() {
     ios::sync_with_stdio(0);
     ll sum=0;
@@ -25,11 +23,8 @@ int main() {
         sum+=mp[i].c;
     }
     sort(mp+1,mp+1+n,cmp);
-    ll mmax=mp[1].a+mp[1].c;
-    for(int i=2;i<=n;i++){
-        sum+=max(0ll,mp[i].a-mmax);
-        mmax=max(mmax,mp[i].a+mp[i].c);
-    }
+    // sum+=max(0ll,mp[n].a-mp[1].a-mp[1].c);
+    sum+=max(0ll,mp[1].a-mp[n].a-mp[n].c);
     cout<<sum<<endl;
     return 0;
 }

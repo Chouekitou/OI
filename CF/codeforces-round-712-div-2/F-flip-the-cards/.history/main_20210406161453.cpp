@@ -7,8 +7,8 @@ using namespace std;
 int main() {
     ios::sync_with_stdio(0);
     int n;
+    vector<int> ve,c,suffmax,seq0,seq1;
     cin>>n;
-    vector<int> ve(n+1),c(n+1),suffmax(n+2),seq0,seq1;
     for(int i=0;i<n;i++){
         int a,b;
         cin>>a>>b;
