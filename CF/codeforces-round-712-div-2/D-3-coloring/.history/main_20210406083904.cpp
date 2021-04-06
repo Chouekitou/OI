@@ -56,14 +56,13 @@ int main() {
                 black.pop_back();
                 cout<<2<<" "<<t.first<<" "<<t.second<<endl;
             }
-            else if(!white.empty()){
+            if(!white.empty()){
                 pair<int,int> t=white.back();
                 white.pop_back();
                 cout<<1<<" "<<t.first<<" "<<t.second<<endl;
             }
         }
         cout<<endl;
-        cout.flush();
     }
     cout.flush();
     return 0;

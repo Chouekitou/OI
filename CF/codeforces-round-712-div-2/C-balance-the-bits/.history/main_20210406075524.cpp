@@ -8,11 +8,8 @@ void solve(){
     char a[maxn],b[maxn];
     cin>>n;
     for(int i=1;i<=n;i++){
-        char c;
-        cin>>c;
-        s[i]=c-'0';
-        // cin>>s[i];
-        if(s[i]==1) sum1+=1;
+        cin>>s[i];
+        if(s[i]) sum1+=1;
         else sum0+=1;
     }
     if(s[1]==0||s[n]==0){
@@ -24,7 +21,7 @@ void solve(){
         return;
     }
     int count=0;
-    bool flip=false;
+    bool flip;
     for(int i=1;i<=n;i++){
         if(s[i]==1){
             count+=1;
@@ -38,20 +35,10 @@ void solve(){
             }
         }
         else{
-            a[i]=flip?'(':')';
-            b[i]=flip?')':'(';
-            flip=!flip;
+
         }
     }
-    cout<<"YES\n";
-    for(int i=1;i<=n;i++){
-        cout<<a[i];
-    }
-    cout<<endl;
-    for(int i=1;i<=n;i++){
-        cout<<b[i];
-    }
-    cout<<endl;
+
 }
 
 int main() {

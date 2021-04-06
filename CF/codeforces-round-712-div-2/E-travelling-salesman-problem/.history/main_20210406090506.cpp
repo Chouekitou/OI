@@ -23,8 +23,7 @@ int main() {
         sum+=mp[i].c;
     }
     sort(mp+1,mp+1+n,cmp);
-    sum+=max(0ll,mp[n].a-mp[1].a-mp[1].c);
-    cout<<sum<<endl;
+    sum+=max(0,)
     return 0;
 }
 
