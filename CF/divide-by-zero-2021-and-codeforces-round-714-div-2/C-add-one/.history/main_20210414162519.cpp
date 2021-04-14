@@ -8,7 +8,7 @@ int in[maxn];
 int dp[maxn],mod=1000000007;
 
 void solve(){
-    int n,m;
+    int n,m,count=0;
     cin>>n>>m;
     int ans=0;
     while(n>0){
