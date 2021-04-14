@@ -21,6 +21,7 @@ void solve(){
             return;
         }
     } 
+
     int fact=1;
     for(int i=1;i<=n-2;i++){
         fact=(1LL*fact*i)%mod;

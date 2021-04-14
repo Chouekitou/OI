@@ -2,10 +2,11 @@
 #include <iostream>
 #include <vector>
 #include <algorithm>
+#define mod 1e9+7
 using namespace std;
 
 void solve(){
-    int n,mod=1e9+7;
+    int n;
     cin>>n;
     vector<int> a(n);
     for(int i=0;i<n;i++){
@@ -21,12 +22,12 @@ void solve(){
             return;
         }
     } 
+
     int fact=1;
-    for(int i=1;i<=n-2;i++){
+    for(int i=1;i<=n;i++){
         fact=(1LL*fact*i)%mod;
     }
-    int ans=(1LL*count*(count-1))%mod;
-    ans=(1LL*ans*fact)%mod;
+    int ans=(1LL*ans*fact)%mod;
     cout<<ans<<endl;
 }
 
