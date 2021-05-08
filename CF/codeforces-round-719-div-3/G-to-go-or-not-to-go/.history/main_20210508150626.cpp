@@ -48,22 +48,18 @@ void solve() {
     }
     ull mindis1 = UINTMAX_MAX, mindis2 = UINTMAX_MAX;
     pair<int, int> portal1, portal2;
-    for (vector<pair<int, int> >::iterator i = portals.begin();
-         i != portals.end(); i++) {
-             continue;
+    for (vector<pair<int, int>>::iterator i = portals.begin();
+         i <= portals.end(); i++) {
         if (count[i->first][i->second] != -1 &&
             count[i->first][i->second] < mindis1) {
-            // if(count[i->first][i->second] < mindis1){
-                mindis1 = min(mindis1, count[i->first][i->second]);
-                portal1 = *i;
-            // }
-            
+            mindis1 = min(mindis1, count[i->first][i->second]);
+            portal1 = *i;
         }
     }
     memset(count, -1, sizeof(count));
     bfs(n, m, 0);
     for (vector<pair<int, int>>::iterator i = portals.begin();
-         i != portals.end(); i++) {
+         i <= portals.end(); i++) {
         if (count[i->first][i->second] != -1 &&
             count[i->first][i->second] < mindis2) {
             mindis2 = min(mindis2, count[i->first][i->second]);

@@ -60,6 +60,7 @@ void solve() {
             
         }
     }
+    // return;
     memset(count, -1, sizeof(count));
     bfs(n, m, 0);
     for (vector<pair<int, int>>::iterator i = portals.begin();
