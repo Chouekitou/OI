@@ -1,0 +1,7 @@
+[01m[K/home/poi/github/OI/code/Codeforces - Educational Codeforces Round 109 (Rated for Div. 2)/B. Permutation Sort/sol.cpp:[m[K In function ‘[01m[Kint solve()[m[K’:
+[01m[K/home/poi/github/OI/code/Codeforces - Educational Codeforces Round 109 (Rated for Div. 2)/B. Permutation Sort/sol.cpp:17:9:[m[K [01;31m[Kerror: [m[Kreturn-statement with no value, in function returning ‘[01m[Kint[m[K’ [[01;31m[K-fpermissive[m[K]
+   17 |         [01;31m[Kreturn[m[K;
+      |         [01;31m[K^~~~~~[m[K
+[01m[K/home/poi/github/OI/code/Codeforces - Educational Codeforces Round 109 (Rated for Div. 2)/B. Permutation Sort/sol.cpp:23:5:[m[K [01;31m[Kerror: [m[Kreturn-statement with no value, in function returning ‘[01m[Kint[m[K’ [[01;31m[K-fpermissive[m[K]
+   23 |     [01;31m[Kreturn[m[K;
+      |     [01;31m[K^~~~~~[m[K
