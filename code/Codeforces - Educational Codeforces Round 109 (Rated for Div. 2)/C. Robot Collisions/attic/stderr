@@ -1,0 +1,54 @@
+[01m[K/home/poi/github/OI/code/Codeforces - Educational Codeforces Round 109 (Rated for Div. 2)/C. Robot Collisions/sol.cpp:10:8:[m[K [01;31m[Kerror: [m[K‘[01m[Kbot[m[K’ was not declared in this scope
+   10 | vector<[01;31m[Kbot[m[K> a;
+      |        [01;31m[K^~~[m[K
+[01m[K/home/poi/github/OI/code/Codeforces - Educational Codeforces Round 109 (Rated for Div. 2)/C. Robot Collisions/sol.cpp:10:11:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   10 | vector<bot[01;31m[K>[m[K a;
+      |           [01;31m[K^[m[K
+[01m[K/home/poi/github/OI/code/Codeforces - Educational Codeforces Round 109 (Rated for Div. 2)/C. Robot Collisions/sol.cpp:10:11:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[01m[K/home/poi/github/OI/code/Codeforces - Educational Codeforces Round 109 (Rated for Div. 2)/C. Robot Collisions/sol.cpp:[m[K In function ‘[01m[Kint cmp(int, int)[m[K’:
+[01m[K/home/poi/github/OI/code/Codeforces - Educational Codeforces Round 109 (Rated for Div. 2)/C. Robot Collisions/sol.cpp:16:13:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kint[int][m[K’ for array subscript
+   16 |     return a[01;31m[K[[m[Kx].x < a[y].x;
+      |             [01;31m[K^[m[K
+[01m[K/home/poi/github/OI/code/Codeforces - Educational Codeforces Round 109 (Rated for Div. 2)/C. Robot Collisions/sol.cpp:16:22:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kint[int][m[K’ for array subscript
+   16 |     return a[x].x < a[01;31m[K[[m[Ky].x;
+      |                      [01;31m[K^[m[K
+[01m[K/home/poi/github/OI/code/Codeforces - Educational Codeforces Round 109 (Rated for Div. 2)/C. Robot Collisions/sol.cpp:[m[K In function ‘[01m[Kvoid solve()[m[K’:
+[01m[K/home/poi/github/OI/code/Codeforces - Educational Codeforces Round 109 (Rated for Div. 2)/C. Robot Collisions/sol.cpp:20:7:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kclear[m[K’ in ‘[01m[Ka[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+   20 |     a.[01;31m[Kclear[m[K();
+      |       [01;31m[K^~~~~[m[K
+[01m[K/home/poi/github/OI/code/Codeforces - Educational Codeforces Round 109 (Rated for Div. 2)/C. Robot Collisions/sol.cpp:24:17:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kint[int][m[K’ for array subscript
+   24 |         cin >> a[01;31m[K[[m[Ki].x;
+      |                 [01;31m[K^[m[K
+[01m[K/home/poi/github/OI/code/Codeforces - Educational Codeforces Round 109 (Rated for Div. 2)/C. Robot Collisions/sol.cpp:29:10:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kint[int][m[K’ for array subscript
+   29 |         a[01;31m[K[[m[Ki].d = c == 'L' ? -1 : 1;
+      |          [01;31m[K^[m[K
+[01m[K/home/poi/github/OI/code/Codeforces - Educational Codeforces Round 109 (Rated for Div. 2)/C. Robot Collisions/sol.cpp:37:18:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kint[int][m[K’ for array subscript
+   37 |         int p = a[01;31m[K[[m[Ki].x % 2;
+      |                  [01;31m[K^[m[K
+[01m[K/home/poi/github/OI/code/Codeforces - Educational Codeforces Round 109 (Rated for Div. 2)/C. Robot Collisions/sol.cpp:38:14:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kint[int][m[K’ for array subscript
+   38 |         if (a[01;31m[K[[m[Ki].d == -1) {
+      |              [01;31m[K^[m[K
+[01m[K/home/poi/github/OI/code/Codeforces - Educational Codeforces Round 109 (Rated for Div. 2)/C. Robot Collisions/sol.cpp:45:37:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kint[int][m[K’ for array subscript
+   45 |                 ans[i] = ans[j] = (a[01;31m[K[[m[Ki].x - (a[j].d == 1 ? a[j].x : -a[j].x)) / 2;
+      |                                     [01;31m[K^[m[K
+[01m[K/home/poi/github/OI/code/Codeforces - Educational Codeforces Round 109 (Rated for Div. 2)/C. Robot Collisions/sol.cpp:45:47:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kint[int][m[K’ for array subscript
+   45 |                 ans[i] = ans[j] = (a[i].x - (a[01;31m[K[[m[Kj].d == 1 ? a[j].x : -a[j].x)) / 2;
+      |                                               [01;31m[K^[m[K
+[01m[K/home/poi/github/OI/code/Codeforces - Educational Codeforces Round 109 (Rated for Div. 2)/C. Robot Collisions/sol.cpp:45:61:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kint[int][m[K’ for array subscript
+   45 |                 ans[i] = ans[j] = (a[i].x - (a[j].d == 1 ? a[01;31m[K[[m[Kj].x : -a[j].x)) / 2;
+      |                                                             [01;31m[K^[m[K
+[01m[K/home/poi/github/OI/code/Codeforces - Educational Codeforces Round 109 (Rated for Div. 2)/C. Robot Collisions/sol.cpp:45:71:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kint[int][m[K’ for array subscript
+   45 |                 ans[i] = ans[j] = (a[i].x - (a[j].d == 1 ? a[j].x : -a[01;31m[K[[m[Kj].x)) / 2;
+      |                                                                       [01;31m[K^[m[K
+[01m[K/home/poi/github/OI/code/Codeforces - Educational Codeforces Round 109 (Rated for Div. 2)/C. Robot Collisions/sol.cpp:58:41:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kint[int][m[K’ for array subscript
+   58 |             ans[i] = ans[j] = (2 * m - a[01;31m[K[[m[Ki].x - (a[j].d == 1 ? a[j].x : -a[j].x)) / 2;
+      |                                         [01;31m[K^[m[K
+[01m[K/home/poi/github/OI/code/Codeforces - Educational Codeforces Round 109 (Rated for Div. 2)/C. Robot Collisions/sol.cpp:58:51:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kint[int][m[K’ for array subscript
+   58 |             ans[i] = ans[j] = (2 * m - a[i].x - (a[01;31m[K[[m[Kj].d == 1 ? a[j].x : -a[j].x)) / 2;
+      |                                                   [01;31m[K^[m[K
+[01m[K/home/poi/github/OI/code/Codeforces - Educational Codeforces Round 109 (Rated for Div. 2)/C. Robot Collisions/sol.cpp:58:65:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kint[int][m[K’ for array subscript
+   58 |             ans[i] = ans[j] = (2 * m - a[i].x - (a[j].d == 1 ? a[01;31m[K[[m[Kj].x : -a[j].x)) / 2;
+      |                                                                 [01;31m[K^[m[K
+[01m[K/home/poi/github/OI/code/Codeforces - Educational Codeforces Round 109 (Rated for Div. 2)/C. Robot Collisions/sol.cpp:58:75:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kint[int][m[K’ for array subscript
+   58 |             ans[i] = ans[j] = (2 * m - a[i].x - (a[j].d == 1 ? a[j].x : -a[01;31m[K[[m[Kj].x)) / 2;
+      |                                                                           [01;31m[K^[m[K

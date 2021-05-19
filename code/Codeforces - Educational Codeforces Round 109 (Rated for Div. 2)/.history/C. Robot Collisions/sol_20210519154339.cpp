@@ -29,6 +29,7 @@ void solve() {
         cin >> c;
         a[i].d = c == 'L' ? -1 : 1;
     }
+    return;
     vector<int> ord(n);
     iota(ord.begin(), ord.end(), 0);
     sort(ord.begin(), ord.end(), cmp);

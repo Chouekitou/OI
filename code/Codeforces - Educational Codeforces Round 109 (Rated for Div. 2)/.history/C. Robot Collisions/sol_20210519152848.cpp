@@ -11,7 +11,7 @@ struct bot {
     int x, d;
 };
 
-vector<bot> a(maxn);
+vector<bot> a;
 
 int cmp(int x, int y) {
     return a[x].x < a[y].x;

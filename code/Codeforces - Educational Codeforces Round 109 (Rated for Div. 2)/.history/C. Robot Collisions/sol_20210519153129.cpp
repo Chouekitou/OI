@@ -11,7 +11,7 @@ struct bot {
     int x, d;
 };
 
-vector<bot> a(maxn);
+vector<bot> a;
 
 int cmp(int x, int y) {
     return a[x].x < a[y].x;
@@ -24,11 +24,13 @@ void solve() {
     for (int i = 0;i < n;i++) {
         cin >> a[i].x;
     }
+    return;
     for (int i = 0;i < n;i++) {
         char c;
         cin >> c;
         a[i].d = c == 'L' ? -1 : 1;
     }
+    return;
     vector<int> ord(n);
     iota(ord.begin(), ord.end(), 0);
     sort(ord.begin(), ord.end(), cmp);
