@@ -1,0 +1,17 @@
+{
+  "mainSolution": {
+    "value": "/home/poi/github/OI/code/Codeforces - Codeforces Round #722 (Div. 2)/F. It's a bird! No, it's a plane! No, it's AaParsa!/sol.cpp"
+  },
+  "bruteSolution": {},
+  "generator": {},
+  "checker": {},
+  "companionConfig": {
+    "value": {
+      "name": "F. It's a bird! No, it's a plane! No, it's AaParsa!",
+      "group": "Codeforces - Codeforces Round #722 (Div. 2)",
+      "url": "https://codeforces.com/contest/1529/problem/F",
+      "memoryLimit": 256,
+      "timeLimit": 5000
+    }
+  }
+}

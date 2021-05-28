@@ -1,0 +1,17 @@
+{
+  "mainSolution": {
+    "value": "/home/poi/github/OI/code/Codeforces - Codeforces Round #722 (Div. 2)/E. Trees of Tranquillity/sol.cpp"
+  },
+  "bruteSolution": {},
+  "generator": {},
+  "checker": {},
+  "companionConfig": {
+    "value": {
+      "name": "E. Trees of Tranquillity",
+      "group": "Codeforces - Codeforces Round #722 (Div. 2)",
+      "url": "https://codeforces.com/contest/1529/problem/E",
+      "memoryLimit": 256,
+      "timeLimit": 3000
+    }
+  }
+}

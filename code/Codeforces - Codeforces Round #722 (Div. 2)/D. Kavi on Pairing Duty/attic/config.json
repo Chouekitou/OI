@@ -1,0 +1,17 @@
+{
+  "mainSolution": {
+    "value": "/home/poi/github/OI/code/Codeforces - Codeforces Round #722 (Div. 2)/D. Kavi on Pairing Duty/sol.cpp"
+  },
+  "bruteSolution": {},
+  "generator": {},
+  "checker": {},
+  "companionConfig": {
+    "value": {
+      "name": "D. Kavi on Pairing Duty",
+      "group": "Codeforces - Codeforces Round #722 (Div. 2)",
+      "url": "https://codeforces.com/contest/1529/problem/D",
+      "memoryLimit": 256,
+      "timeLimit": 1000
+    }
+  }
+}

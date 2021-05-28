@@ -1,0 +1,4 @@
+[01m[K/home/poi/github/OI/code/Codeforces - Codeforces Round #722 (Div. 2)/D. Kavi on Pairing Duty/sol.cpp:[m[K In function ‘[01m[Kint main()[m[K’:
+[01m[K/home/poi/github/OI/code/Codeforces - Codeforces Round #722 (Div. 2)/D. Kavi on Pairing Duty/sol.cpp:43:5:[m[K [01;31m[Kerror: [m[Kreturn-statement with no value, in function returning ‘[01m[Kint[m[K’ [[01;31m[K-fpermissive[m[K]
+   43 |     [01;31m[Kreturn[m[K;
+      |     [01;31m[K^~~~~~[m[K
