@@ -2,7 +2,6 @@
 #include <iostream>
 #include <cstring>
 #include <map>
-#define ll long long
 #define maxn 200010
 using namespace std;
 
@@ -10,7 +9,7 @@ map<int, int> m;
 
 void solve() {
     m.clear();
-    ll n, ans = 0;
+    int n, ans = 0;
     cin >> n;
     for (int i = 1;i <= n;i++) {
         int a;
