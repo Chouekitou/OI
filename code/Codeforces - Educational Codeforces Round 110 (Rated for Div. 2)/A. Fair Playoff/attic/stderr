@@ -1,0 +1,4 @@
+[01m[K/home/poi/github/OI/code/Codeforces - Educational Codeforces Round 110 (Rated for Div. 2)/A. Fair Playoff/sol.cpp:[m[K In function ‘[01m[Kvoid solve()[m[K’:
+[01m[K/home/poi/github/OI/code/Codeforces - Educational Codeforces Round 110 (Rated for Div. 2)/A. Fair Playoff/sol.cpp:10:5:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K}[m[K’ token
+   10 |     [01;31m[K}[m[K
+      |     [01;31m[K^[m[K

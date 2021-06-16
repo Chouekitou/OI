@@ -1,0 +1,17 @@
+{
+  "mainSolution": {
+    "value": "/home/poi/github/OI/code/Codeforces - Educational Codeforces Round 110 (Rated for Div. 2)/E. Gold Transfer/sol.cpp"
+  },
+  "bruteSolution": {},
+  "generator": {},
+  "checker": {},
+  "companionConfig": {
+    "value": {
+      "name": "E. Gold Transfer",
+      "group": "Codeforces - Educational Codeforces Round 110 (Rated for Div. 2)",
+      "url": "https://codeforces.com/contest/1535/problem/E",
+      "memoryLimit": 256,
+      "timeLimit": 4500
+    }
+  }
+}

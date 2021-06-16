@@ -1,0 +1,9 @@
+[01m[K/home/poi/github/OI/code/Codeforces - Educational Codeforces Round 110 (Rated for Div. 2)/B. Array Reodering/sol.cpp:[m[K In function ‘[01m[Kvoid solve()[m[K’:
+[01m[K/home/poi/github/OI/code/Codeforces - Educational Codeforces Round 110 (Rated for Div. 2)/B. Array Reodering/sol.cpp:15:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ksort[m[K’ was not declared in this scope; did you mean ‘[01m[Kshort[m[K’?
+   15 |     [01;31m[Ksort[m[K(a.begin(), a.end(), [](int x, int y) {
+      |     [01;31m[K^~~~[m[K
+      |     [32m[Kshort[m[K
+[01m[K/home/poi/github/OI/code/Codeforces - Educational Codeforces Round 110 (Rated for Div. 2)/B. Array Reodering/sol.cpp:21:16:[m[K [01;31m[Kerror: [m[K‘[01m[K__gcd[m[K’ was not declared in this scope; did you mean ‘[01m[K__gid_t[m[K’?
+   21 |         ans += [01;31m[K__gcd[m[K(a[i], a[j] * 2) > 1;
+      |                [01;31m[K^~~~~[m[K
+      |                [32m[K__gid_t[m[K
