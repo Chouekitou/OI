@@ -24,17 +24,13 @@ void solve() {
     int n;
     cin >> n;
     for (int i = 1;i <= n;i++) {
-        a[i].push_back(' ');
-    }
-    for (int i = 1;i <= n;i++) {
         char c;
         cin >> c;
         for (int j = i;j <= n;j++) {
-            // a[i][j] = c;
-            a[j].push_back(c);
+            a[i][j] = c;
         }
     }
-    sort(a + 1, a + 1 + n);
+    sort(a + 1, a + 1 + n, cmp);
     for (int i = 1;i <= n;i++) {
         for (int j = 1;j <= n;j++) {
             if ((a[i][j] - 'a' + 1 >= 1) && (a[i][j] - 'a' + 1 <= 26)) {
@@ -54,7 +50,6 @@ void solve() {
         cout << 'a';
     }
     cout << char('a' + minpos - 1) << endl;
-    cout << minl << " " << minpos << endl;
     return;
 }
 

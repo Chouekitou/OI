@@ -9,31 +9,29 @@ using namespace std;
 string a[maxn];
 bool used[maxn][100];
 
-int cmp(string x, string y) {
-    for (int i = 1;i < maxn;i++) {
-        if (x[i] == '\0') return 1;
-        if (y[i] == '\0') return 0;
-        if (x[i] < y[i]) return 1;
-        if (x[i] > y[i]) return 0;
-    }
-    return 0;
-}
+// int cmp(string x, string y) {
+//     for (int i = 1;i < maxn;i++) {
+//         if (x[i] == '\0') return 1;
+//         if (y[i] == '\0') return 0;
+//         if (x[i] < y[i]) return 1;
+//         if (x[i] > y[i]) return 0;
+//     }
+//     return 0;
+// }
 
 void solve() {
     memset(used, 0, sizeof(used));
     int n;
     cin >> n;
     for (int i = 1;i <= n;i++) {
-        a[i].push_back(' ');
-    }
-    for (int i = 1;i <= n;i++) {
         char c;
         cin >> c;
         for (int j = i;j <= n;j++) {
             // a[i][j] = c;
-            a[j].push_back(c);
+            a[i].push_back(c);
         }
     }
+    return;
     sort(a + 1, a + 1 + n);
     for (int i = 1;i <= n;i++) {
         for (int j = 1;j <= n;j++) {
@@ -54,7 +52,6 @@ void solve() {
         cout << 'a';
     }
     cout << char('a' + minpos - 1) << endl;
-    cout << minl << " " << minpos << endl;
     return;
 }
 

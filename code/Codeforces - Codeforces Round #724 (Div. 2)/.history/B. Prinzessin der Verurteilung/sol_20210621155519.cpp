@@ -54,7 +54,6 @@ void solve() {
         cout << 'a';
     }
     cout << char('a' + minpos - 1) << endl;
-    cout << minl << " " << minpos << endl;
     return;
 }
 

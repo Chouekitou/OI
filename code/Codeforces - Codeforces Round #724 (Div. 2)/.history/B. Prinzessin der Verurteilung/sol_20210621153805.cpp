@@ -6,10 +6,10 @@
 #define maxn 1010
 using namespace std;
 
-string a[maxn];
+char a[maxn][maxn];
 bool used[maxn][100];
 
-int cmp(string x, string y) {
+int cmp(char x[], char y[]) {
     for (int i = 1;i < maxn;i++) {
         if (x[i] == '\0') return 1;
         if (y[i] == '\0') return 0;
@@ -24,38 +24,21 @@ void solve() {
     int n;
     cin >> n;
     for (int i = 1;i <= n;i++) {
-        a[i].push_back(' ');
-    }
-    for (int i = 1;i <= n;i++) {
         char c;
         cin >> c;
         for (int j = i;j <= n;j++) {
-            // a[i][j] = c;
-            a[j].push_back(c);
+            a[i][j] = c;
         }
     }
-    sort(a + 1, a + 1 + n);
+    sort(a + 1, a + 1 + n, cmp);
     for (int i = 1;i <= n;i++) {
         for (int j = 1;j <= n;j++) {
-            if ((a[i][j] - 'a' + 1 >= 1) && (a[i][j] - 'a' + 1 <= 26)) {
-                used[i][a[i][j] - 'a' + 1] = 1;
-            }
+            if (a[i][j] - 'a')
         }
     }
-    int minl, minpos;
     for (int l = 1;l <= n + 1;l++) {
-        for (int i = 1;i <= 26;i++) {
-            if (used[l][i] == 0) {
-                minl = l, minpos = i;
-            }
-        }
+
     }
-    for (int i = 1;i < minl;i++) {
-        cout << 'a';
-    }
-    cout << char('a' + minpos - 1) << endl;
-    cout << minl << " " << minpos << endl;
-    return;
 }
 
 int main() {
