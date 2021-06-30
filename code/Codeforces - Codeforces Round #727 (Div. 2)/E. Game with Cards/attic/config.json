@@ -1,0 +1,17 @@
+{
+  "mainSolution": {
+    "value": "/home/poi/github/OI/code/Codeforces - Codeforces Round #727 (Div. 2)/E. Game with Cards/sol.cpp"
+  },
+  "bruteSolution": {},
+  "generator": {},
+  "checker": {},
+  "companionConfig": {
+    "value": {
+      "name": "E. Game with Cards",
+      "group": "Codeforces - Codeforces Round #727 (Div. 2)",
+      "url": "https://codeforces.com/contest/1539/problem/E",
+      "memoryLimit": 256,
+      "timeLimit": 2500
+    }
+  }
+}
